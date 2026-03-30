@@ -27,7 +27,7 @@ jobs:
           # Generates both a transparent standard and transparent dark-mode version
           outputs: |
             dist/github-contribution-grid-snake.svg?color_snake=38bdf8&color_bg=transparent&color_dots=#0f172a,#0284c7,#0ea5e9,#38bdf8,#7dd3fc
-            dist/github-contribution-grid-snake-dark.svg?color_snake=38bdf8&color_bg=transparent&color_dots=#0f172a,#0284c7,#0ea5e9,#38bdf8,#7dd3fc
+            dist/github-contribution-grid-snake-dark.svg?color_snake=ffffff8&color_bg=transparent&color_dots=#0f172a,#0284c7,#0ea5e9,#38bdf8,#7dd3fc
 
       - name: push snake.svg to the output branch
         uses: crazy-max/ghaction-github-pages@v3.1.0
