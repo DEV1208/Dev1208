@@ -20,14 +20,12 @@ jobs:
 
     steps:
       - name: generate snake.svg
-        # Switched to the full snk@v3 for better environment handling
         uses: Platane/snk@v3
         with:
           github_user_name: ${{ github.repository_owner }}
-          # Generates both a transparent standard and transparent dark-mode version
           outputs: |
-            dist/github-contribution-grid-snake.svg?color_snake=0f172a&color_bg=transparent&color_dots=#ebedf0,#bae6fd,#7dd3fc,#38bdf8,#0284c7
-            dist/github-contribution-grid-snake-dark.svg?color_snake=ffffff&color_bg=transparent&color_dots=#0f172a,#0284c7,#0ea5e9,#38bdf8,#7dd3fc
+            dist/github-contribution-grid-snake.svg?color_snake=0f172a&color_dots=#ebedf0,#bae6fd,#7dd3fc,#38bdf8,#0284c7
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark&color_snake=ffffff&color_dots=#0f172a,#0284c7,#0ea5e9,#38bdf8,#7dd3fc
       - name: push snake.svg to the output branch
         uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
