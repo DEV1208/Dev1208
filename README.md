@@ -26,8 +26,3 @@
 </div>
 
 ---
-
-<img src="https://raw.githubusercontent.com/Dev1208/Dev1208/output/snake.svg" alt="Snake animation" />
-
-
----
