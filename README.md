@@ -25,26 +25,12 @@
   <img src="https://img.shields.io/badge/MongoDB-0f172a?style=for-the-badge&logo=mongodb&logoColor=38bdf8" />
 </div>
 
-<br/>
-
 ---
 
-<h2 align="center">🚀 Projects</h2>
-
-<div align="center">
-  <a href="https://github.com/Dev1208/local-ai-resume-optimizer">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Dev1208&repo=local-ai-resume-optimizer&theme=tokyonight&hide_border=true&bg_color=0f172a&title_color=38bdf8&icon_color=38bdf8&text_color=ffffff" width="45%" alt="AI Resume Optimizer" />
-  </a>
-  <a href="https://github.com/Dev1208/tiffins-service-platform">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Dev1208&repo=tiffins-service-platform&theme=tokyonight&hide_border=true&bg_color=0f172a&title_color=38bdf8&icon_color=38bdf8&text_color=ffffff" width="45%" alt="Tiffins Service Platform" />
-  </a>
-</div>
-
-<br/>
-
----
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Dev1208/Dev1208/output/pacman-contribution-graph-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Dev1208/Dev1208/output/pacman-contribution-graph.svg">
   <img alt="pacman contribution graph" src="https://raw.githubusercontent.com/Dev1208/Dev1208/output/pacman-contribution-graph.svg">
 </picture>
+
+---
