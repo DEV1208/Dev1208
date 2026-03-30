@@ -16,7 +16,7 @@ jobs:
         uses: Platane/snk@v3
         id: snake-gif
         with:
-          github_user_name: ${{ github.repository_owner }}
+          github_user_name: ${{ Dev1208 }}
           # This line forces the custom Dev Blue and Cyan theme
           outputs: |
             dist/github-contribution-grid-snake.svg?color_snake=38bdf8&color_dots=#0f172a,#0284c7,#0ea5e9,#38bdf8,#7dd3fc
